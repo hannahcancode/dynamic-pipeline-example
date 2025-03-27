@@ -4,7 +4,7 @@
     {
       "type": "script",
       "name": ":pipeline:",
-      "command": ".buildkite/pipeline.sh | buildkite-agent pipeline upload"
+      "command": ".buildkite/pipeline.sh | buildkite-agent pipeline upload",
       "agents": {
         "queue": "default"
       }
