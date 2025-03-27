@@ -6,7 +6,7 @@
       "name": ":pipeline:",
       "command": ".buildkite/pipeline.sh | buildkite-agent pipeline upload"
       "agents":
-        - "queue=default"
+      - "queue=default"
     }
   ]
 }
